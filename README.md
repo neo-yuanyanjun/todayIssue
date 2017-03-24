@@ -1,5 +1,4 @@
-每日问题汇总
-==========
+## 每日问题汇总
 
 *	https 协议下安卓端默认不加载 http协议请求
 	* 解决办法 [https://segmentfault.com/q/1010000004727822](https://segmentfault.com/q/1010000004727822)
@@ -9,4 +8,8 @@
 *	zepto 获取input checkbox 是否选中 获取不到
 	*	需要引入zepto的`selector.js`模块
 *	【错误处理】:Uncaught SyntaxError: Invalid or unexpected token
-	* 这个错误是因为，js代码中存在非英文标点符号（仔细检查下代码）	
+	* 这个错误是因为，js代码中存在非英文标点符号（仔细检查下代码）
+
+## 每日有趣网址收集
+
+http://k.swao.cn/js/web/game/t_01/level_01/step1.html	
