@@ -40,6 +40,8 @@ Image from origin 'http://sdimage.b0.upaiyun.com' has been blocked from loading 
 
 ```
 
+*	`document.referrer` (**同一个域名下**获取本页面上一个页面的地址信息，若没有则返回空字符串)
+
 
 	
 
