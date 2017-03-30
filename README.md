@@ -28,8 +28,22 @@ color {
 }
 
 ```
+
+*	image跨域访问问题
+	* canvas 调用drawImage方法会出现	
+
+```
+
+Image from origin 'http://sdimage.b0.upaiyun.com' has been blocked from loading by Cross-Origin Resource Sharing policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. Origin 'http://localhost:3000' is therefore not allowed access.
+
+```
+
+	* 我的解决办法是把图片转成base64（缺点，如果图片很大会增加页面代码量）
+	* [segmentfault 上的解决办法](https://segmentfault.com/q/1010000000768672)
+
+
 	
 
-## 每日有趣网址收集
+## 有趣网址收集
 
 http://k.swao.cn/js/web/game/t_01/level_01/step1.html	
