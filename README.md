@@ -1,4 +1,4 @@
-## 每日问题汇总
+## 问题汇总
 
 *	https 协议下安卓端默认不加载 http协议请求
 	* 解决办法 [https://segmentfault.com/q/1010000004727822](https://segmentfault.com/q/1010000004727822)
