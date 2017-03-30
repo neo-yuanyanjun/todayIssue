@@ -40,6 +40,7 @@ Image from origin 'http://sdimage.b0.upaiyun.com' has been blocked from loading 
 
 	* 我的解决办法是把图片转成base64（缺点，如果图片很大会增加页面代码量）
 	* [segmentfault 上的解决办法](https://segmentfault.com/q/1010000000768672)
+	* [MDN 解决方案](https://developer.mozilla.org/en-US/docs/Web/HTML/CORS_enabled_image)
 
 
 	
