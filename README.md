@@ -41,7 +41,57 @@ Image from origin 'http://sdimage.b0.upaiyun.com' has been blocked from loading 
 ```
 
 *	`document.referrer` (**同一个域名下**获取本页面上一个页面的地址信息，若没有则返回空字符串)
+*	使用Js去除“内容”的前后空格
 
+```js
+
+function Trim(str)
+{ 
+ 	return str.replace(/(^\s*)|(\s*$)/g, ""); 
+}
+
+// 如果使用jQuery直接使用$.trim(str)方法即可，str表示要去掉前后所有空格的字符串
+
+```
+
+*	去掉字符串中所有空格（包括中间空格）
+
+```js
+
+ function Trim(str,is_global)
+{
+    var result;
+    result = str.replace(/(^\s+)|(\s+$)/g,"");
+    if(is_global.toLowerCase()=="g")
+    {
+        result = result.replace(/\s/g,"");
+     }
+    return result;
+}
+
+```
+
+*	字符串去掉特殊字符和转义字符
+
+```js
+
+var excludeSpecial = function(s) {  
+	
+	// 去掉转义字符  
+	s = s.replace(/[\'\"\\\/\b\f\n\r\t]/g, '');  
+	
+	// 去掉特殊字符  
+	s = s.replace(/[\@\#\$\%\^\&\*\{\}\:\"\L\<\>\?]/);  
+	return s;  
+}; 
+
+// test 
+var s = "He is\tcalled 'Johnny'";;  
+console.log(s);  
+console.log(excludeSpecial(s));  
+console.log(s); 
+
+```
 
 	
 
