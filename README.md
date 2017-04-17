@@ -1,4 +1,4 @@
-## 问题汇总
+## 问题汇总和日常总结
 
 *	https 协议下安卓端默认不加载 http协议请求
 	* 解决办法 [https://segmentfault.com/q/1010000004727822](https://segmentfault.com/q/1010000004727822)
@@ -71,25 +71,20 @@ function Trim(str)
 
 ```
 
-*	字符串去掉特殊字符和转义字符
+*	刚刚收到腾讯新闻的一条推送，86西游记的杨洁导演去世了。怀着悲痛的心情，赶紧去百度百科上检索下杨洁这个人的履历。发现这个页面整体都是灰色的，果断按了下F12（旁边的同事说我：这是病啊，老板）即发现了下面这段代码（是页面整体变灰）：
 
-```js
+```css
 
-var excludeSpecial = function(s) {  
-	
-	// 去掉转义字符  
-	s = s.replace(/[\'\"\\\/\b\f\n\r\t]/g, '');  
-	
-	// 去掉特殊字符  
-	s = s.replace(/[\@\#\$\%\^\&\*\{\}\:\"\L\<\>\?]/);  
-	return s;  
-}; 
-
-// test 
-var s = "He is\tcalled 'Johnny'";;  
-console.log(s);  
-console.log(excludeSpecial(s));  
-console.log(s); 
+/* 采用css3的灰度过滤，是页面整体变灰 */
+body.memorial {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(grayscale=1);
+    -webkit-filter: grayscale(1);
+}
 
 ```
 
