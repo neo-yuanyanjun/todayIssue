@@ -88,6 +88,10 @@ body.memorial {
 
 ```
 
+**兼容性：**[CSS Filter Effects](http://www.caniuse.com/#search=filter)
+
+![](images/cssFilter.png)
+
 	
 
 ## 有趣网址收集
