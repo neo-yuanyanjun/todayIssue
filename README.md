@@ -93,6 +93,9 @@ body.memorial {
 ![CSS Filter 兼容性](images/cssFilter.png)
 
 *	jquery可以重复绑定相同事件到同一个元素上！！（所以你要确保每个元素身上只绑定了一个事件）这是[stackoverflow 上的解决方案](http://stackoverflow.com/questions/14969960/jquery-click-events-firing-multiple-times)
+> 通过这个问题衍生的一些问题：jquery `on`方法绑定事件的原理，是放在一个数组里面的，触发的时候循环数组里面的事件，所以会触发多次。
+> 
+> 这里还有dom0级事件和dom2级事件（这个今晚补上）
 
 	
 
