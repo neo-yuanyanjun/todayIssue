@@ -88,11 +88,11 @@ body.memorial {
 
 ```
 
-*	jquery可以重复绑定相同事件到同一个元素上！！（坑啊）
-
 **兼容性：**[CSS Filter Effects](http://www.caniuse.com/#search=filter)
 
 ![CSS Filter 兼容性](images/cssFilter.png)
+
+*	jquery可以重复绑定相同事件到同一个元素上！！（所以你要确保每个元素身上只绑定了一个事件）这是[stackoverflow 上的解决方案](http://stackoverflow.com/questions/14969960/jquery-click-events-firing-multiple-times)
 
 	
 
