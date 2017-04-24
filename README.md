@@ -88,6 +88,8 @@ body.memorial {
 
 ```
 
+*	jquery可以重复绑定相同事件到同一个元素上！！（坑啊）
+
 **兼容性：**[CSS Filter Effects](http://www.caniuse.com/#search=filter)
 
 ![CSS Filter 兼容性](images/cssFilter.png)
