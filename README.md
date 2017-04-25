@@ -107,11 +107,11 @@ body.memorial {
 
 > 上面贴出的部分jquery源码，可以看到on方法中，事件之所以可以一次绑定多个，是因为jquery是用“for”循环绑定你所添加的事件
 > 
-> 其次，在给同一个元素绑定相同时间不发生覆盖的原因是：jquery调用each方法还是循环去添加事件。
+> 其次，在给同一个元素绑定相同事件不发生覆盖的原因是：jquery调用each方法还是循环去添加事件。
 > 
 > 其底层的事件添加采用的是dom2级事件，即addEventListener来实现。addEventListener本身就是可以绑定多个相同事件在同一个元素身上。所以就出现的，当你给一个元素重复绑定相同事件不发生覆盖的情况。
 > 
-> 不了解addEventListener为什么可以绑定多个事件的，可以参考（https://github.com/smileyby/dom0_dom2）
+> 不了解addEventListener为什么可以绑定多个事件的，可以参考：https://github.com/smileyby/dom0_dom2
 	
 
 ## 有趣网址收集
