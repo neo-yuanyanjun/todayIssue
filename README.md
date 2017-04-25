@@ -95,8 +95,23 @@ body.memorial {
 *	jquery可以重复绑定相同事件到同一个元素上！！（所以你要确保每个元素身上只绑定了一个事件）这是[stackoverflow 上的解决方案](http://stackoverflow.com/questions/14969960/jquery-click-events-firing-multiple-times)
 > 通过这个问题衍生的一些问题：jquery `on`方法绑定事件的原理，是放在一个数组里面的，触发的时候循环数组里面的事件，所以会触发多次。
 > 
-> 这里还有dom0级事件和dom2级事件（这个今晚补上）
+> 这里还有dom0级事件和dom2级事件（https://github.com/smileyby/dom0_dom2）
 
+这里有必要科普下jquery源码中，on方法的实现原理：
+
+![](images/3.png)
+
+![](images/1.png)
+
+![](images/2.png)
+
+> 上面贴出的部分jquery源码，可以看到on方法中，事件之所以可以一次绑定多个，是因为jquery是用“for”循环绑定你所添加的事件
+> 
+> 其次，在给同一个元素绑定相同时间不发生覆盖的原因是：jquery调用each方法还是循环去添加事件。
+> 
+> 其底层的事件添加采用的是dom2级事件，即addEventListener来实现。addEventListener本身就是可以绑定多个相同事件在同一个元素身上。所以就出现的，当你给一个元素重复绑定相同事件不发生覆盖的情况。
+> 
+> 不了解addEventListener为什么可以绑定多个事件的，可以参考（https://github.com/smileyby/dom0_dom2）
 	
 
 ## 有趣网址收集
