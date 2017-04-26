@@ -112,6 +112,8 @@ body.memorial {
 > 其底层的事件添加采用的是dom2级事件，即addEventListener来实现。addEventListener本身就是可以绑定多个相同事件在同一个元素身上。所以就出现的，当你给一个元素重复绑定相同事件不发生覆盖的情况。
 > 
 > 不了解addEventListener为什么可以绑定多个事件的，可以参考：https://github.com/smileyby/dom0_dom2
+
+* 今天和安卓对接的时候发现，安卓端接收字符串和数字的处理方式不一样，我用js调用安卓方法，传递参数为字符串1，但安卓端接收到的确实0（奇怪啊）。
 	
 
 ## 有趣网址收集
