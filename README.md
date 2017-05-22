@@ -114,6 +114,7 @@ body.memorial {
 > 不了解addEventListener为什么可以绑定多个事件的，可以参考：https://github.com/smileyby/dom0_dom2
 
 * 今天和安卓对接的时候发现，安卓端接收字符串和数字的处理方式不一样，我用js调用安卓方法，传递参数为字符串1，但安卓端接收到的确实0（奇怪啊）。
+* transform-origin  的位置会受元素display属性影响 http://codepen.io/airen/pen/Jdvbgr 
 	
 
 ## 有趣网址收集
