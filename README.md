@@ -119,7 +119,8 @@ body.memorial {
 
 ## 有趣网址收集
 
-http://k.swao.cn/js/web/game/t_01/level_01/step1.html	
+http://k.swao.cn/js/web/game/t_01/level_01/step1.html
+http://weavesilk.com/?tgxl
 
 ## 实用工具收集
 
