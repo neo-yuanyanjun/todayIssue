@@ -115,6 +115,11 @@ body.memorial {
 
 * 今天和安卓对接的时候发现，安卓端接收字符串和数字的处理方式不一样，我用js调用安卓方法，传递参数为字符串1，但安卓端接收到的确实0（奇怪啊）。
 * transform-origin  的位置会受元素display属性影响 http://codepen.io/airen/pen/Jdvbgr 
+
+* PHPError PHP 5.6 中 Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version
+* 解决办法：找到php.ini  文件， 把always_populate_raw_post_data  修改为-1 就行了。`always_populate_raw_post_data=-1` 参考链接：[https://www.bram.us/2014/10/26/php-5-6-automatically-populating-http_raw_post_data-is-deprecated-and-will-be-removed-in-a-future-version/](https://www.bram.us/2014/10/26/php-5-6-automatically-populating-http_raw_post_data-is-deprecated-and-will-be-removed-in-a-future-version/)
+
+* input type=file 其中files属性为只读，不可修改
 	
 
 ## 有趣网址收集
