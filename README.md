@@ -136,4 +136,6 @@ http://whxaxes.github.io/canvas-test/src//Funny-demo/netparticle/net_2.html
 
 ## 实用工具收集
 
-http://www.ilovepdf.com/zh_cn
+http://www.ilovepdf.com/zh_cn   pdf文件转换
+
+https://www.17ce.com/  测试网址在各个地区的响应情况
