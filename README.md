@@ -122,6 +122,8 @@ body.memorial {
 * input type=file 其中files属性为只读，不可修改
 
 * 很久没有数据的方法，有点生疏了，在这里记录下`concat`拼接两个数组的时候返回值是拼接后的新数组，`push`向数组最后添加元素，返回值是新数组的长度。（不清楚这两个小东西的返回值，被自己坑了一把）
+
+* 微信小程序中scroll-view标签上貌似不能写循环语句！！
 	
 
 ## 有趣网址收集
@@ -133,6 +135,8 @@ http://weavesilk.com/?tgxl
 https://www.douban.com/group/topic/27093596/?type=like
 
 http://whxaxes.github.io/canvas-test/src//Funny-demo/netparticle/net_2.html
+
+https://www.zhihu.com/question/46943112 短小精悍的js代码
 
 ## 实用工具收集
 
