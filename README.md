@@ -126,6 +126,8 @@ body.memorial {
 
 * 微信小程序中scroll-view标签上貌似不能写循环语句！！
 
+* reg.test is not a function 正则中  比如 var reg = "/^[0-9]$/" 会报  reg.test is not a function 如果 var reg = /^[0-9]$/  就不会有错    因为 这才是正则 正确的表达式
+
 学习区网址收集
 =============
 
