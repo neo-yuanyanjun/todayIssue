@@ -149,6 +149,10 @@ http://www.ilovepdf.com/zh_cn   pdf文件转换
 
 https://www.17ce.com/  测试网址在各个地区的响应情况
 
+## 前端资源收集
+
+https://zhuanlan.zhihu.com/p/23344447
+
 ## 关于Node.js
 
 这里将集中收集一些关于如何学习nodejs，以及nodejs项目实际案例的教程（最近发现掌握一门后端语言还是很有必要的）
