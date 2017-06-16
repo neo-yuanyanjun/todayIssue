@@ -128,6 +128,8 @@ body.memorial {
 
 * reg.test is not a function 正则中  比如 var reg = "/^[0-9]$/" 会报  reg.test is not a function 如果 var reg = /^[0-9]$/  就不会有错    因为 这才是正则 正确的表达式
 
+* 命令行合并同目录下所有`.ts`后缀文件，`copy /b *.ts newTs.ts`
+
 学习区网址收集
 =============
 
