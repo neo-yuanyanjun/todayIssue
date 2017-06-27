@@ -130,6 +130,16 @@ body.memorial {
 
 * 命令行合并同目录下所有`.ts`后缀文件，`copy /b *.ts newTs.ts`
 
+* `addEventListener` 监听事件的类型 `transitionend` `pagehide` `animationend` 都是啥意思？
+
+* js代码中使用 `use strict` 啥意思 啊？
+
+* 事件和函数的结尾为啥可以用逗号（参考陪我分享页）？
+
+* `linear-gradient` `-webkit-tap-hightlight-color` `outline` 这些属性都是什么作用？
+
+
+
 学习区网址收集
 =============
 
