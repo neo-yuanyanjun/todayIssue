@@ -138,6 +138,19 @@ body.memorial {
 
 * `linear-gradient` `-webkit-tap-hightlight-color` `outline` 这些属性都是什么作用？
 
+* js页面唤起app，没有则跳转下载:
+
+```js
+
+function(){
+    location.href = 'zidingyi://zidingyi.com/';
+    setTimeout(function(){
+	location.href = 'http://xxx.apk';
+    }, 800);
+}
+
+```
+
 
 
 学习区网址收集
