@@ -165,9 +165,9 @@ options为可选参数对象，可用选项如下：
 
 > `linear-gradient`:函数创建一个表示颜色线性渐变的<image>，`background:linear-gradient(135deg, red, blue);`效果还不错哦。
 > 
-> `-webkit-tap-hightlight-color`:是一个没有标准化的属性，能够设置点击链接的时候出现的高粱颜色。显示给用户的高光是他们成功点击的标识，以及暗示他们点击的元素。这个主要是用在移动端点击去除元素的高亮显示。`-webkit-tap-highlight-color: transparent;` [参考链接](http://ued.ctrip.com/webkitcss/prop/tap-highlight-color.html)
+> `-webkit-tap-hightlight-color`:是一个没有标准化的属性，能够设置点击链接的时候出现的高亮颜色。显示给用户的高光是他们成功点击的标识，以及暗示他们点击的元素。这个主要是用在移动端点击去除元素的高亮显示。`-webkit-tap-highlight-color: transparent;` [参考链接](http://ued.ctrip.com/webkitcss/prop/tap-highlight-color.html)
 > 
-> `outline`：用来设置一个或多个单独的罗扩属性的简写属性例：`:link:hover { outline: 1px solid #000; }`
+> `outline`：用来设置一个或多个单独的轮廓属性的简写属性例：`:link:hover { outline: 1px solid #000; }`
 `:link:hover { outline: solid black 1px; }`[参考链接](https://developer.mozilla.org/zh-CN/docs/Web/CSS/outline)
 
 * js页面唤起app，没有则跳转下载:
