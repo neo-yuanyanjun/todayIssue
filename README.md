@@ -128,15 +128,47 @@ body.memorial {
 
 * reg.test is not a function 正则中  比如 var reg = "/^[0-9]$/" 会报  reg.test is not a function 如果 var reg = /^[0-9]$/  就不会有错    因为 这才是正则 正确的表达式
 
-* 命令行合并同目录下所有`.ts`后缀文件，`copy /b *.ts newTs.ts`
+* 命令行合并同目录下所有`.ts`后缀文件
+> `copy /b *.ts newTs.ts`
 
 * `addEventListener` 监听事件的类型 `transitionend` `pagehide` `animationend` 都是啥意思？
 
+> 不查不知道，事件监听的 `type`有400多个类型，当时我就震惊了。
+> 
+> [吓得我赶紧恶补下这些东东--可见监听的事件类型 MDN](https://developer.mozilla.org/zh-CN/docs/Web/Events)
+> 
+> [关于事件监听函数的参数 MDN](https://developer.mozilla.org/zh-CN/docs/Web/API/EventTarget/addEventListener)
+
+`target.addEventListener(type, listener[, options]);`
+
+options为可选参数对象，可用选项如下：
+
+> capture:Boolean，表示listener会在该类型的事件捕获阶段传播到该EventTarget时触发
+> 
+> once: Bollean，表示listener在添加之后最多只调动一次。如果是true，listener会在其被调用之后自动移除。
+>
+> passive:Bollean，表示listener永不会调用preventDefault()。如果listener仍然调用了这个函数，客户端将会忽略它并抛出一个控制台警告。
+>
+> mozSystemGroup:只能在XBL或者是FireFox，chrome使用，这是个Boolean，表示listener被添加到system group
+> 更多关于listener的参数请参考上面的链接。
+
+
 * js代码中使用 `use strict` 啥意思 啊？
 
-* 事件和函数的结尾为啥可以用逗号（参考陪我分享页）？
+> [关于js严格模式详解-阮一峰](http://www.ruanyifeng.com/blog/2013/01/javascript_strict_mode.html)
+
+> 后面会专写一篇来研究这个鬼严格模式。
+
+* 事件和函数的结尾为啥可以用逗号（参考陪我分享页）暂时没找到太好的解释[逗号当分号用了？](https://segmentfault.com/q/1010000008082093?_ea=1544899)？
 
 * `linear-gradient` `-webkit-tap-hightlight-color` `outline` 这些属性都是什么作用？
+
+> `linear-gradient`:函数创建一个表示颜色线性渐变的<image>，`background:linear-gradient(135deg, red, blue);`效果还不错哦。
+> 
+> `-webkit-tap-hightlight-color`:是一个没有标准化的属性，能够设置点击链接的时候出现的高粱颜色。显示给用户的高光是他们成功点击的标识，以及暗示他们点击的元素。这个主要是用在移动端点击去除元素的高亮显示。`-webkit-tap-highlight-color: transparent;` [参考链接](http://ued.ctrip.com/webkitcss/prop/tap-highlight-color.html)
+> 
+> `outline`：用来设置一个或多个单独的罗扩属性的简写属性例：`:link:hover { outline: 1px solid #000; }`
+`:link:hover { outline: solid black 1px; }`[参考链接](https://developer.mozilla.org/zh-CN/docs/Web/CSS/outline)
 
 * js页面唤起app，没有则跳转下载:
 
