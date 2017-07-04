@@ -183,6 +183,17 @@ function(){
 
 ```
 
+* amazeui中的radio标签内嵌的form表单中是，外层需要嵌套一个类名为 `am-btn-group` 的类名,这样表单提交的时候才会提交上去。示例如下:
+
+```html
+
+<div class="am-btn-group" data-am-button>
+	<label class="am-btn am-btn-default am-btn-sm radiobtn">
+	    <input name="selected" value="1" type="radio"/> 选项一
+	</label>
+</div>
+
+```
 
 
 学习区网址收集
