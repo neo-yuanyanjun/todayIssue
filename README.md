@@ -195,6 +195,9 @@ function(){
 
 ```
 
+* 浏览器请求跨域-关键词`Access-Control-Allow-Origin`
+* https 下禁止http请求-关键词`was loaded over HTTPS` `This request has been blocked; the content must be served over HTTPS.`
+
 
 学习区网址收集
 =============
