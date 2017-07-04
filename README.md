@@ -91,7 +91,7 @@ body.memorial {
 
 **兼容性：**[CSS Filter Effects](http://www.caniuse.com/#search=filter)
 
-![CSS Filter 兼容性](images/cssFilter.png)
+![CSS Filter 兼容性](http://oqpmmru7y.bkt.clouddn.com/todayIssue_cssFilter.png)
 
 *	jquery可以重复绑定相同事件到同一个元素上！！（所以你要确保每个元素身上只绑定了一个事件）这是[stackoverflow 上的解决方案](http://stackoverflow.com/questions/14969960/jquery-click-events-firing-multiple-times)
 > 通过这个问题衍生的一些问题：jquery `on`方法绑定事件的原理，是放在一个数组里面的，触发的时候循环数组里面的事件，所以会触发多次。
@@ -100,11 +100,11 @@ body.memorial {
 
 这里有必要科普下jquery源码中，on方法的实现原理：
 
-![](images/3.png)
+![](http://oqpmmru7y.bkt.clouddn.com/todayIssue_3.png)
 
-![](images/1.png)
+![](http://oqpmmru7y.bkt.clouddn.com/todayIssue_2.png)
 
-![](images/2.png)
+![](http://oqpmmru7y.bkt.clouddn.com/todayIssue_1.png)
 
 > 上面贴出的部分jquery源码，可以看到on方法中，事件之所以可以一次绑定多个，是因为jquery是用“for”循环绑定你所添加的事件
 > 
