@@ -183,7 +183,7 @@ function(){
 
 ```
 
-* amazeui中的radio标签内嵌的form表单中是，外层需要嵌套一个类名为 `am-btn-group` 的类名,这样表单提交的时候才会提交上去。示例如下:
+* amazeui中的radio标签内嵌的form表单中是，外层需要嵌套一个类名为 `am-btn-group` 的父元素,这样表单提交的时候才会提交上去。示例如下:
 
 ```html
 
