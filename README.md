@@ -198,6 +198,8 @@ function(){
 * 浏览器请求跨域-关键词`Access-Control-Allow-Origin`
 * https 下禁止http请求-关键词`was loaded over HTTPS` `This request has been blocked; the content must be served over HTTPS.`
 
+* 安卓手机QQ浏览器打开页面如果被封，则请求头会带有 403 forbidden 反馈
+
 
 学习区网址收集
 =============
