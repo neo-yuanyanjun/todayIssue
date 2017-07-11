@@ -122,7 +122,7 @@ body.memorial {
 
 * input type=file 其中files属性为只读，不可修改
 
-* 很久没有数据的方法，有点生疏了，在这里记录下`concat`拼接两个数组的时候返回值是拼接后的新数组，`push`向数组最后添加元素，返回值是新数组的长度。（不清楚这两个小东西的返回值，被自己坑了一把）
+* 很久没用数组的方法，有点生疏了，在这里记录下`concat`拼接两个数组的时候返回值是拼接后的新数组，`push`向数组最后添加元素，返回值是新数组的长度。（不清楚这两个小东西的返回值，被自己坑了一把）
 
 * 微信小程序中scroll-view标签上貌似不能写循环语句！！
 
@@ -170,7 +170,7 @@ options为可选参数对象，可用选项如下：
 > `outline`：用来设置一个或多个单独的轮廓属性的简写属性例：`:link:hover { outline: 1px solid #000; }`
 `:link:hover { outline: solid black 1px; }`[参考链接](https://developer.mozilla.org/zh-CN/docs/Web/CSS/outline)
 
-* js页面唤起app，没有则跳转下载:
+* js页面唤起app，没有则跳转下载（这样做存在问题较大，建议将下载和唤醒app两个功能分开）:
 
 ```js
 
@@ -200,7 +200,13 @@ function(){
 
 * 安卓手机QQ浏览器打开页面如果被封，则请求头会带有 403 forbidden 反馈
 
+* `Error saving setting with name: consoleHistory, value length: 5272836. Error: Failed to set the 'consoleHistory' property on 'Storage': Setting the value of 'consoleHistory' exceeded the quota.`[stackoverflow about this console info](https://stackoverflow.com/questions/29277964/copy-paste-big-dictionary-into-chrome-console)
+
+* phpstrom 默认限制打开文件大小为 2.5M，过大则会提示超出内容不予记录。可在配置文件中修改最大容量。（个人感觉这一点上sublime要强很多，同样是打开5M的文件，sublime要流畅很多）
+
 * js获取其他网页的header头部信息，是否可以？
+
+* ajax在什么情况下会出现error的情况？
 
 
 学习区网址收集
