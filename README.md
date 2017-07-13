@@ -204,9 +204,13 @@ function(){
 
 * phpstrom 默认限制打开文件大小为 2.5M，过大则会提示超出内容不予记录。可在配置文件中修改最大容量。（个人感觉这一点上sublime要强很多，同样是打开5M的文件，sublime要流畅很多）
 
-* js获取其他网页的header头部信息，是否可以？
+* js获取页面的header头部信息，是否可以？
 
 * ajax在什么情况下会出现error的情况？
+
+* javascript中的for/try/switch/while/do while/
+
+* javascript中整数相除得到的一定不是整数，为什么？
 
 
 学习区网址收集
