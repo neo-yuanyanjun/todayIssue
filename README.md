@@ -208,7 +208,7 @@ function(){
 
 * ajax在什么情况下会出现error的情况？
 
-* javascript中的for/try/switch/while/do while/
+* javascript中的for/try/switch/while/do while/try/hasOwnProperty/闭包。。。
 
 * javascript中整数相除得到的一定不是整数，为什么？
 
