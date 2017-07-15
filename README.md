@@ -204,13 +204,28 @@ function(){
 
 * phpstrom 默认限制打开文件大小为 2.5M，过大则会提示超出内容不予记录。可在配置文件中修改最大容量。（个人感觉这一点上sublime要强很多，同样是打开5M的文件，sublime要流畅很多）
 
-* js获取页面的header头部信息，是否可以？
+* js获取页面的header头部信息，是否可以？参考网址：https://github.com/smileyby/website-header
 
 * ajax在什么情况下会出现error的情况？
+> 出现跨域是会回调error函数、感觉王者这方面的信息偏少。这一块需要自己总结。后面补上吧。
 
 * javascript中的for/try/switch/while/do while/try/hasOwnProperty/闭包。。。
 
+> for：https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Statements/for
+
+> try：https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Statements/try...catch
+
+> while:https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Statements/while
+
+> do while：https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Statements/do...while
+
+> hasOwnProperty: https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Object/hasOwnProperty
+
+> 闭包：随机找了两篇文章：http://www.jb51.net/article/24101.htm http://blog.csdn.net/u014205965/article/details/45936997 明天仔细看看
+
 * javascript中整数相除得到的一定不是整数，为什么？
+
+> 首先说一下这句话是错的，js中整数相除可能会得到一个非整数。还有一点需要注意的就是**js中认为1和1.0是相等的（即：`1 === 1.0`）**,避免了短整数溢出的问题。
 
 
 学习区网址收集
