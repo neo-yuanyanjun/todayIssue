@@ -222,6 +222,7 @@ function(){
 > hasOwnProperty: https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Object/hasOwnProperty
 
 > 闭包：随机找了两篇文章：http://www.jb51.net/article/24101.htm http://blog.csdn.net/u014205965/article/details/45936997 明天仔细看看
+> 我真的是仔细看了，但还是看不懂。该怎么自我拯救一下，我是真的看不懂啊！！！
 
 * javascript中整数相除得到的一定不是整数，为什么？
 
