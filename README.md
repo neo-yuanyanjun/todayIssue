@@ -228,6 +228,58 @@ function(){
 
 > 首先说一下这句话是错的，js中整数相除可能会得到一个非整数。还有一点需要注意的就是**js中认为1和1.0是相等的（即：`1 === 1.0`）**,避免了短整数溢出的问题。
 
+* substr用法
+
+```js
+
+/**
+    * 获取指定函数的函数名称（用于兼容IE）
+    * @param {Function} fun 任意函数
+    */
+function getFunctionName(fun) {
+    if (fun.name !== undefined)
+        return fun.name;
+    var ret = fun.toString();
+    ret = ret.substr('function '.length);
+    ret = ret.substr(0, ret.indexOf('('));
+    return ret;
+}
+
+// 看关于函数的一些东东的时候发现了这个获取函数名的方法，顺带复习下substr用法
+
+```
+
+> String.prototype.substr()
+>
+> str.substr(start[, length])
+>
+> substr方法可传入两个参数：
+> * start开始提取字符的位置。如果为赋值，则被看做strLength + start，其中strLength为字符串的长度（例如，如果start为-3，则被看做strLength - 3）。
+> 
+> length可选。提取的字符数
+> 
+> start 是一个字符的索引。首字符的索引为0，最后一个字符的索引为字符串的长度减1.substr从start位置开始提取字符，提取length个字符（或者到字符串的末尾）。
+> 
+> 如果start为正值，且大于等于字符串的长度，则substr返回一个空字符串。
+> 
+> 如果start为负值，则substr把它作为字符串末尾的一个字符索引。如果start为负值且abs(start)大于字符串的长度，则substr使用0作为开始提取的左尹。注意负的start参数不被Microsoft Jscript所支持。
+> 
+> 如果length为0或者负值，则substr返回一个空字符串。如果忽略length，则substr提取字符串，知道字符串末尾。
+
+```js
+
+// substr 示例代码
+var str = "abcdefghij";
+
+console.log("(1,2): "    + str.substr(1,2));   // (1,2): bc
+console.log("(-3,2): "   + str.substr(-3,2));  // (-3,2): hi
+console.log("(-3): "     + str.substr(-3));    // (-3): hij
+console.log("(1): "      + str.substr(1));     // (1): bcdefghij
+console.log("(-20, 2): " + str.substr(-20,2)); // (-20, 2): ab
+console.log("(20, 2): "  + str.substr(20,2));  // (20, 2):
+
+```
+
 
 学习区网址收集
 =============
