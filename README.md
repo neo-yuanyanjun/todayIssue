@@ -311,8 +311,6 @@ http://www.ilovepdf.com/zh_cn   pdf文件转换
 
 https://www.17ce.com/  测试网址在各个地区的响应情况
 
-http://jingyan.baidu.com/article/20095761845931cb0721b4a5.htm window下安装黑苹果系统教程
-
 ## 前端资源收集
 
 https://zhuanlan.zhihu.com/p/23344447
