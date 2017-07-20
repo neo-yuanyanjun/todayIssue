@@ -289,6 +289,10 @@ console.log("(20, 2): "  + str.substr(20,2));  // (20, 2):
 
 * this指向问题，在字面量函数中，this为什么会指向window？
 
+* Object.prototype.propertyIsEnumerable()
+
+> propertyIsEnumerable() 方法返回一个布尔值，表明指定的属性名是否是当前对象可枚举的自身属性。
+
 
 学习区网址收集
 =============
