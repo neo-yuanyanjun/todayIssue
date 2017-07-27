@@ -295,6 +295,19 @@ console.log("(20, 2): "  + str.substr(20,2));  // (20, 2):
 
 * form表单提交 **button的id不要设置为submit,否则可能会引起混淆，导致表单的submit()方法不能提交表单。在命名ID时，名字最好不要和现有的api在名称上重复，避免不必要的烦扰**
 
+* 经常在git上看到五颜六色的字体，不知道人家是怎么实现的，刚所搜了一下原来是用<font></font>标签包裹并给出字体颜色和大小即可。
+
+```html
+
+<font face="黑体">我是黑体字</font>
+<font face="微软雅黑">我是微软雅黑</font>
+<font face="STCAIYUN">我是华文彩云</font>
+<font color=#0099ff size=7 face="黑体">color=#0099ff size=72 face="黑体"</font>
+<font color=#00ffff size=72>color=#00ffff</font>
+<font color=gray size=72>color=gray</font>
+
+```
+
 
 学习区网址收集
 =============
