@@ -308,7 +308,8 @@ console.log("(20, 2): "  + str.substr(20,2));  // (20, 2):
 
 ```
 
-* input file 标签 value 不能赋值？？？
+* input file 标签 value 不能赋值
+> 出于安全考虑，input的type=file value值是不能动态修改的
 
 * 最近在爬数据想用node-crawler来爬，结果发现node.js版本过低不能使用，检索了一下，发现可以使用如下更新方法：
 > 1、首先安装n模块
