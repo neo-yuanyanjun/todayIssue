@@ -326,9 +326,11 @@ console.log("(20, 2): "  + str.substr(20,2));  // (20, 2):
 > n stable
 
 结果，报错显示如下图：
+
 ![](http://oqpmmru7y.bkt.clouddn.com/QQ%E6%88%AA%E5%9B%BE20170801163334.png)
 
 > 在检索一下，原来是n模块不支持window系统，无奈只能去安装程序中吧nodejs卸载了，下载一个最新版本的重新安装。
+> 参考：[https://www.npmjs.com/package/n](https://www.npmjs.com/package/n)
 
 
 
