@@ -333,6 +333,8 @@ console.log("(20, 2): "  + str.substr(20,2));  // (20, 2):
 > 在检索一下，原来是n模块不支持window系统，无奈只能去安装程序中吧nodejs卸载了，下载一个最新版本的重新安装。
 > 参考：[https://www.npmjs.com/package/n](https://www.npmjs.com/package/n)
 
+* 不同版本的app绝壁不要用同一个付费页，各种坑，一个版本新建一个文件夹确保不影响其他版本，地址后面拼接参数的方式真的是恶心到爆炸。
+
 
 
 学习区网址收集
