@@ -335,7 +335,9 @@ console.log("(20, 2): "  + str.substr(20,2));  // (20, 2):
 
 * 不同版本的app绝壁不要用同一个付费页，各种坑，一个版本新建一个文件夹确保不影响其他版本，地址后面拼接参数的方式真的是恶心到爆炸。
 
-* background-attachment 控制背景图...研究研究？？？
+* background-attachment 控制背景图
+
+> 参见: https://developer.mozilla.org/zh-CN/docs/Web/CSS/background-attachment,可用于实现页面的背景固定特效
 
 * 使用360断网急救箱，强制重置网络配置。它把我HOSTS文件里面的全部配置都注释了，导致开启phpstuday不能访问本地环境。
 
