@@ -343,6 +343,8 @@ console.log("(20, 2): "  + str.substr(20,2));  // (20, 2):
 
 * https://segmentfault.com/a/1190000000385867 node request模块使用，主要看看咋设置headers
 
+* TDD---TDD是测试驱动开发（Test-Driven Development）的英文简称，是敏捷开发中的一项核心实践和技术，也是一种设计方法论。TDD的原理是在开发功能代码之前，先编写单元测试用例代码，测试代码确定需要编写什么产品代码。TDD虽是敏捷方法的核心实践，但不只适用于XP（Extreme Programming），同样可以适用于其他开发方法和过程。
+
 
 
 学习区网址收集
