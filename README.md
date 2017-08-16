@@ -375,6 +375,8 @@ https://www.17ce.com/  测试网址在各个地区的响应情况
 
 http://icp.chinaz.com/ icp备案查询
 
+https://www.zhihu.com/question/19561454 来自知乎的前端工具汇总
+
 ## 前端资源收集
 
 https://zhuanlan.zhihu.com/p/23344447
