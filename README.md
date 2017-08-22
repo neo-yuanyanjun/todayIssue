@@ -346,7 +346,12 @@ console.log("(20, 2): "  + str.substr(20,2));  // (20, 2):
 * TDD---TDD是测试驱动开发（Test-Driven Development）的英文简称，是敏捷开发中的一项核心实践和技术，也是一种设计方法论。TDD的原理是在开发功能代码之前，先编写单元测试用例代码，测试代码确定需要编写什么产品代码。TDD虽是敏捷方法的核心实践，但不只适用于XP（Extreme Programming），同样可以适用于其他开发方法和过程。
 
 * 为什么会报错？
+
 ![](http://oqpmmru7y.bkt.clouddn.com/QQ%E6%88%AA%E5%9B%BE20170816184026.png)
+
+已解决因为在引用是还定义
+
+* input 添加 `required` 属性表示必须填写才能提交，在safari下不能使用
 
 
 
