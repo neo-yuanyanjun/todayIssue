@@ -353,6 +353,8 @@ console.log("(20, 2): "  + str.substr(20,2));  // (20, 2):
 
 * input 添加 `required` 属性表示必须填写才能提交，在safari下不能使用
 
+* jquery中的appendTo方法可以使选中元素移动到指定的元素中  $("#target4").appendTo("#left-well"); 
+
 
 
 学习区网址收集
