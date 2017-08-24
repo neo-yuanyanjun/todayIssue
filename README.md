@@ -349,11 +349,13 @@ console.log("(20, 2): "  + str.substr(20,2));  // (20, 2):
 
 ![](http://oqpmmru7y.bkt.clouddn.com/QQ%E6%88%AA%E5%9B%BE20170816184026.png)
 
-已解决因为在引用是还定义
+已解决因为在引用时还未定义
 
 * input 添加 `required` 属性表示必须填写才能提交，在safari下不能使用
 
 * jquery中的appendTo方法可以使选中元素移动到指定的元素中  $("#target4").appendTo("#left-well"); 
+
+* 一个比较好玩的加载效果 --- http://demo.geekslabs.com/materialize-v1.0/index.html 
 
 
 
