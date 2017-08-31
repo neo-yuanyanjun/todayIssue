@@ -357,6 +357,8 @@ console.log("(20, 2): "  + str.substr(20,2));  // (20, 2):
 
 * 一个比较好玩的加载效果 --- http://demo.geekslabs.com/materialize-v1.0/index.html 
 
+* ios webview input获取焦点时会自动放大页面，解决添加禁止缩放的meta标签
+
 
 
 学习区网址收集
