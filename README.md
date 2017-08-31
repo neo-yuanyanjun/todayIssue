@@ -386,6 +386,8 @@ http://icp.chinaz.com/ icp备案查询
 
 https://www.zhihu.com/question/19561454 来自知乎的前端工具汇总
 
+http://jingyan.baidu.com/article/c85b7a645454ae003aac9577.html gif图解帧成图片
+
 ## 前端资源收集
 
 https://zhuanlan.zhihu.com/p/23344447
