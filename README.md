@@ -392,9 +392,13 @@ http://jingyan.baidu.com/article/c85b7a645454ae003aac9577.html gif图解帧成�
 
 ## 前端资源收集
 
-https://zhuanlan.zhihu.com/p/23344447
+https://zhuanlan.zhihu.com/p/23344447  前端开发资源收集--知乎
 
 http://nec.netease.com/ 更好的css样式解决方案
+
+## 前端月报好文
+
+http://tech.youzan.com/jsbridge/  H5与Native交互之JSBridge技术--有赞技术团队
 
 ## 关于Node.js
 
