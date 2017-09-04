@@ -361,6 +361,8 @@ console.log("(20, 2): "  + str.substr(20,2));  // (20, 2):
 
 * UTC和GMT时间标准的区别 及转化 http://www.jb51.net/article/77636.htm
 
+* 为什么undefined、NaN和Infinity可以被赋值，而null不可以？ https://segmentfault.com/q/1010000004181674
+
 
 
 学习区网址收集
