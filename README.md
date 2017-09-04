@@ -359,6 +359,8 @@ console.log("(20, 2): "  + str.substr(20,2));  // (20, 2):
 
 * ios webview input获取焦点时会自动放大页面，解决添加禁止缩放的meta标签
 
+* UTC和GMT时间标准的区别 及转化 http://www.jb51.net/article/77636.htm
+
 
 
 学习区网址收集
