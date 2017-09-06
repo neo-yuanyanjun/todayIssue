@@ -402,6 +402,8 @@ http://nec.netease.com/ 更好的css样式解决方案
 
 http://www.alloyteam.com/nav/  web前端导航站点
 
+https://github.com/Martz90/vivify Vivify是免费的CSS动画库
+
 ## 前端月报好文
 
 ### 08
