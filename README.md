@@ -422,6 +422,8 @@ http://blog.parryqiu.com/2016/03/02/using_fetch_in_nodejs/  在 JS 中使用 fet
 
 http://www.ruanyifeng.com/blog/2009/08/learning_javascript_closures.html  阮一峰关于闭包
 
+http://www.geekpark.net/news/221546 一元画为何点燃朋友圈，以及背后你该知道的事情
+
 ## 关于Node.js
 
 这里将集中收集一些关于如何学习nodejs，以及nodejs项目实际案例的教程（最近发现掌握一门后端语言还是很有必要的）
