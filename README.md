@@ -404,7 +404,7 @@ http://www.alloyteam.com/nav/  web前端导航站点
 
 ## 前端月报好文
 
-### 0830
+### 08
 
 http://tech.youzan.com/jsbridge/  H5与Native交互之JSBridge技术--有赞技术团队
 
@@ -417,6 +417,10 @@ https://github.com/chokcoco/iCSS  有趣的 CSS 话题
 https://zhuanlan.zhihu.com/p/28052894 从移动端click到摇一摇
 
 http://blog.parryqiu.com/2016/03/02/using_fetch_in_nodejs/  在 JS 中使用 fetch 更加高效地进行网络请求
+
+### 09
+
+http://www.ruanyifeng.com/blog/2009/08/learning_javascript_closures.html  阮一峰关于闭包
 
 ## 关于Node.js
 
