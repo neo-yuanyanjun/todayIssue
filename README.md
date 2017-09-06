@@ -363,6 +363,8 @@ console.log("(20, 2): "  + str.substr(20,2));  // (20, 2):
 
 * 为什么undefined、NaN和Infinity可以被赋值，而null不可以？ https://segmentfault.com/q/1010000004181674
 
+* form表单提交数据，如果select设置了disable属性，则提交时select数据不会被提交
+
 
 
 学习区网址收集
