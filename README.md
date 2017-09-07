@@ -365,6 +365,8 @@ console.log("(20, 2): "  + str.substr(20,2));  // (20, 2):
 
 * form表单提交数据，如果select设置了disable属性，则提交时select数据不会被提交
 
+* VIP卡片 阴影特效 `box-shadow: 0 10px 20px 0 rgba(0,0,0,0.18);`
+
 
 
 学习区网址收集
