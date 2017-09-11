@@ -367,6 +367,8 @@ console.log("(20, 2): "  + str.substr(20,2));  // (20, 2):
 
 * VIP卡片 阴影特效 `box-shadow: 0 10px 20px 0 rgba(0,0,0,0.18);`
 
+* iframe内容在ios下会被放大，怎么解决呢？
+
 
 
 学习区网址收集
