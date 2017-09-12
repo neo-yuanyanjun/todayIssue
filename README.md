@@ -370,7 +370,7 @@ console.log("(20, 2): "  + str.substr(20,2));  // (20, 2):
 * iframe内容在ios下会被放大，怎么解决呢？ （参考链接：http://www.cnblogs.com/zichi/p/5078115.html，http://www.cnblogs.com/yanqin/p/7156022.html）
 
 * `Node.appendChild()`方法将一个节点添加到指定父节点的子节点列表末尾。
-> 注意appendChild(child) `child`参数是节点，即html标签对，而不是字符串。
+> 注意appendChild(child) `child`参数是节点，例如`var child = document.createElement("p");`，而不是字符串。
 >
 > 如果使用appendChild()方法参数为字符串将报错如下：
 > 
