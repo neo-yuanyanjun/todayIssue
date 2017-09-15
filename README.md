@@ -378,6 +378,8 @@ console.log("(20, 2): "  + str.substr(20,2));  // (20, 2):
 
 * jquery 和 zepto 中使用 `$`符实例化dom对象，应多赋值给变量避免不断实例化dom对象耗费内存资源。
 
+* ios端使用 `use-select:none;` input不能获取焦点问题 参考链接：http://blog.csdn.net/songchunmin_/article/details/52846719
+
 
 学习区网址收集
 =============
