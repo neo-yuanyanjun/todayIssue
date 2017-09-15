@@ -380,6 +380,8 @@ console.log("(20, 2): "  + str.substr(20,2));  // (20, 2):
 
 * ios端使用 `use-select:none;` input不能获取焦点问题 参考链接：http://blog.csdn.net/songchunmin_/article/details/52846719
 
+* 模拟按钮点击波纹效果，参考链接：http://down.admin5.com/demo/code_pop/19/1662/
+
 
 学习区网址收集
 =============
