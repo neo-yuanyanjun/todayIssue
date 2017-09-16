@@ -382,6 +382,8 @@ console.log("(20, 2): "  + str.substr(20,2));  // (20, 2):
 
 * 模拟按钮点击波纹效果，参考链接：http://down.admin5.com/demo/code_pop/19/1662/
 
+* 寻找适合移动端 上传图片并压缩的 js控件，参考链接：[http://imweb.io/topic/568225bb57d7a6c47914fbf2](http://imweb.io/topic/568225bb57d7a6c47914fbf2)，[https://github.com/fex-team/webuploader/](https://github.com/fex-team/webuploader/)，[https://github.com/xfhxbb/LUploader](https://github.com/xfhxbb/LUploader)
+
 
 学习区网址收集
 =============
