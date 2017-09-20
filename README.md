@@ -384,6 +384,10 @@ console.log("(20, 2): "  + str.substr(20,2));  // (20, 2):
 
 * 寻找适合移动端 上传图片并压缩的 js控件，参考链接：[http://imweb.io/topic/568225bb57d7a6c47914fbf2](http://imweb.io/topic/568225bb57d7a6c47914fbf2)，[https://github.com/fex-team/webuploader/](https://github.com/fex-team/webuploader/)，[https://github.com/xfhxbb/LUploader](https://github.com/xfhxbb/LUploader)
 
+> 遇到很多坑啊，在ios端本来是想做一步压缩操作，用canvas来压缩，在正式环境测了一波发现，压缩失败一番检索发现ios中使用canvas压缩图片超过2M自动中断，参考链接： https://www.zhihu.com/question/30692677
+>
+> 后面有时间要专门写一篇移动端上传图片的文档，让后面的人知道坑在哪里。
+
 
 学习区网址收集
 =============
