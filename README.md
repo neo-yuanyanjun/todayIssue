@@ -386,9 +386,9 @@ console.log("(20, 2): "  + str.substr(20,2));  // (20, 2):
 
 > 遇到很多坑啊，在ios端本来是想做一步压缩操作，用canvas来压缩，在正式环境测了一波发现，压缩失败一番检索发现ios中使用canvas压缩图片超过2M自动中断，参考链接： https://www.zhihu.com/question/30692677
 >
-> 后面有时间要专门写一篇移动端上传图片的文档，让后面的人知道坑在哪里。
+> 后面有时间要专门写一篇移动端上传图片的文档，让后面的人知道坑在哪里。详情查看：https://github.com/smileyby/js-upload-img
 
-* js 时间戳转北京时间，待研究
+* js 时间戳转北京时间，详情查看：https://github.com/smileyby/times-stamp
 
 * 有时间要弄一个下拉刷新上拉加载的插件，总是用别人家的感觉很不舒服。有一些需求满足不了。哎
 
