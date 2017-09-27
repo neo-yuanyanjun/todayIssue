@@ -398,6 +398,18 @@ console.log("(20, 2): "  + str.substr(20,2));  // (20, 2):
 
 * 看看能不能用js谢一个16进制颜色转rga的小工具。
 
+```js
+
+for (var i = 1; i <= 5; i += 1){
+	setTimeout( function timer(){
+		console.log( i );
+	}, i*1000 )
+}
+
+```
+
+* 这段代码为什么会输出5个6？？？？？
+
 
 
 学习区网址收集
