@@ -412,6 +412,8 @@ for (var i = 1; i <= 5; i += 1){
 
 * margin padding translate 等属性的 50% 都是相对于谁的？
 
+* try catch 用法是怎样的？
+
 
 
 学习区网址收集
