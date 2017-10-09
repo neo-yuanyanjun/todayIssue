@@ -414,6 +414,8 @@ for (var i = 1; i <= 5; i += 1){
 
 * try catch 用法是怎样的？
 
+* form表单向后台提交数组格式数据 `<input type="text" name="thisObj[]" value="">`
+
 
 
 学习区网址收集
