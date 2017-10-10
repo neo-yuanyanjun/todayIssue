@@ -457,7 +457,7 @@ http://www.alloyteam.com/nav/  web前端导航站点
 
 https://github.com/Martz90/vivify Vivify是免费的CSS动画库
 
-## 前端月报好文
+## 前端每月好文（个人收集仅供参考）
 
 ### 08
 
@@ -484,6 +484,10 @@ http://www.yixieshi.com/93707.html 我研究了微信的121处离线交互逻辑
 http://www.cnbeta.com/articles/tech/649883.htm 阿里年会马云演讲全文：可以失去一切，不能失去理想
 
 http://www.zhangxinxu.com/wordpress/2017/09/css-shapes-outside-iphone-x-head/ CSS3 Shapes实现元素滚动自动环绕iPhone X头部刘海效果
+
+### 10
+
+What the f*ck JavaScript? https://github.com/denysdovhan/wtfjs#-motivation
 
 ## 关于Node.js
 
