@@ -457,6 +457,8 @@ http://www.alloyteam.com/nav/  web前端导航站点
 
 https://github.com/Martz90/vivify Vivify是免费的CSS动画库
 
+http://www.jstips.co/zh_CN/javascript/ JavaScript 小技巧
+
 ## 前端每月好文（个人收集仅供参考）
 
 ### 08
