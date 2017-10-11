@@ -398,6 +398,19 @@ console.log("(20, 2): "  + str.substr(20,2));  // (20, 2):
 
 * form表单向后台提交数组格式数据 `<input type="text" name="thisObj[]" value="">`
 
+```js
+
+function replacer(match, p1, p2, p3, offset, string) {
+  // p1 is nondigits, p2 digits, and p3 non-alphanumerics
+  return [p1, p2, p3].join(' - ');
+}
+var newString = 'abc12345#$*%'.replace(/([^\d]*)(\d*)([^\w]*)/, replacer);
+console.log(newString);  // abc - 12345 - #$*%
+
+```
+
+* 字符串的replace的方法很好用，如上面的例子。更多用法请参考[replace MDN文档](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/String/replace)
+
 * margin padding translate 等属性的 50% 都是相对于谁的？
 
 ```js
