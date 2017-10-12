@@ -411,7 +411,7 @@ console.log(newString);  // abc - 12345 - #$*%
 
 * 字符串的replace的方法很好用，如上面的例子。更多用法请参考[replace MDN文档](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/String/replace)
 
-* margin padding translate 等属性的 50% 都是相对于谁的？
+* margin padding translate 等属性的 50% 都是相对于谁的？（测试结果 https://github.com/smileyby/padding-margin-translate ）
 
 ```js
 
