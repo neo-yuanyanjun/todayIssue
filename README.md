@@ -425,4 +425,4 @@ for (var i = 1; i <= 5; i += 1){
 
 * 这段代码为什么会输出5个6？？？？？
 
-* try catch 用法是怎样的？
+* try catch 用法是怎样的？（参考链接：https://github.com/smileyby/try-catch ）
