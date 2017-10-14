@@ -415,6 +415,12 @@ console.log(newString);  // abc - 12345 - #$*%
 
 * try catch 用法是怎样的？（参考链接：https://github.com/smileyby/try-catch ）
 
+* `-webkit-tap-highlight-color` 是一个没有标准化的属性，能够设置点击链接的时候出现的高亮颜色。显示给用户的高光是他们成功点击的标识，以及暗示了他们点击的元素
+
+* -webkit-font-smoothing 研究下这个非标标准的属性，据说是抗锯齿~
+
+* instanceof 运算符用来测试一个对象在其原型链中是否存在一个构造函数的prototype属性。
+
 ```js
 
 for (var i = 1; i <= 5; i += 1){
