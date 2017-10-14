@@ -413,6 +413,8 @@ console.log(newString);  // abc - 12345 - #$*%
 
 * margin padding translate 等属性的 50% 都是相对于谁的？（测试结果 https://github.com/smileyby/padding-margin-translate ）
 
+* try catch 用法是怎样的？（参考链接：https://github.com/smileyby/try-catch ）
+
 ```js
 
 for (var i = 1; i <= 5; i += 1){
@@ -425,4 +427,4 @@ for (var i = 1; i <= 5; i += 1){
 
 * 这段代码为什么会输出5个6？？？？？
 
-* try catch 用法是怎样的？（参考链接：https://github.com/smileyby/try-catch ）
+* 2017.10.14 写一个关于狼人杀的页面
