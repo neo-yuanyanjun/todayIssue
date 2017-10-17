@@ -440,3 +440,13 @@ for (var i = 1; i <= 5; i += 1){
 * 前端自动化是什么？要怎么实现？主流的自动化工具都有哪些？要怎么用？是否根据css/js/html而分工具？（不想过这种刀耕火种的生活啦）
 
 * 移动端页面自适应和字体自适应的方案是怎么样的？
+
+* 关于postcss收集了几个网址：
+
+> https://segmentfault.com/a/1190000010926812
+>
+> https://segmentfault.com/a/1190000010947054
+>
+> https://segmentfault.com/a/1190000003909268
+>
+> https://segmentfault.com/a/1190000011595620
