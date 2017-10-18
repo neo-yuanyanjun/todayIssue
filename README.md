@@ -459,4 +459,6 @@ for (var i = 1; i <= 5; i += 1){
 >
 > http://www.w3cplus.com/css/postcss-modules-make-css-great-again.html
 
+* 上面排了这么多链接粗略看了一下，大概学习postcss的流程应该是先学会一个构建工具（glup或者webpack），然后再基于构建工具去使用postcss相关插件。就按照这个逻辑走吧。
+
 * 页面布局 给p标签inline-block 宽33.3333%最后一个元素掉下去了，为什么？？？？？
