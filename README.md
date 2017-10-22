@@ -441,24 +441,8 @@ for (var i = 1; i <= 5; i += 1){
 
 * 移动端页面自适应和字体自适应的方案是怎么样的？
 
-* 关于postcss收集了几个网址：
-
-> https://segmentfault.com/a/1190000010926812
->
-> https://segmentfault.com/a/1190000010947054
->
-> https://segmentfault.com/a/1190000003909268
->
-> https://segmentfault.com/a/1190000011595620
->
-> https://segmentfault.com/a/1190000004946765
->
-> http://www.w3cplus.com/preprocessor/postcss-and-crazy-things-you-can-do-with-it.html
->
-> http://www.w3cplus.com/preprocessor/postcss-book.html
->
-> http://www.w3cplus.com/css/postcss-modules-make-css-great-again.html
-
 * 上面排了这么多链接粗略看了一下，大概学习postcss的流程应该是先学会一个构建工具（glup或者webpack），然后再基于构建工具去使用postcss相关插件。就按照这个逻辑走吧。
 
 * 页面布局 给p标签inline-block 宽33.3333%最后一个元素掉下去了，为什么？？？？？
+
+* 尝试用css实现文字跑马灯效果，来替代文字超出部分隐藏css代码，可行性有待测试？？？
