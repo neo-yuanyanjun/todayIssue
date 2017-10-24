@@ -437,7 +437,7 @@ for (var i = 1; i <= 5; i += 1){
 
 * 前端自动化是什么？仅以gulp为例：[https://github.com/smileyby/learn-glup](https://github.com/smileyby/learn-glup)
 
-* 移动端页面自适应和字体自适应的方案是怎么样的？
+* Window.getComputedStyle() 方法给出应用活动样式表后的元素的所有CSS属性的值，并解析这些值可能包含的任何基本计算。[参考文档](https://developer.mozilla.org/zh-CN/docs/Web/API/Window/getComputedStyle)
 
 * 页面布局 给p标签inline-block 宽33.3333%最后一个元素掉下去了，为什么？？？？？
 
