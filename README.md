@@ -448,3 +448,8 @@ for (var i = 1; i <= 5; i += 1){
 * （{}） == '[object Object]',请问这个式子怎么理解？
 
 * CSS Grid 是什么？
+
+* windows下 nodejs 不支持 n模块更新nodejs版本（第二次遇到这个问题）
+
+* 完善jsvascript关于继承问题的理解文章
+
