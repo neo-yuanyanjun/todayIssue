@@ -451,11 +451,9 @@ for (var i = 1; i <= 5; i += 1){
 
 * windows下 nodejs 不支持 n模块更新nodejs版本（第二次遇到这个问题）
 
-* 完善jsvascript关于继承问题的理解文章
-
-* 理解下正则 g m 
-
 * 让未知宽度的子元素 实现横向滚动 display:-webkit-box; 不知道什么原理！！！
 
 * 未知宽度或者高度的元素 水平会垂直局中怎么处理？
+
+* 在苹果safari浏览器中使用css属性`-webkit-user-select: none;`会使得input输入框无法输入内容。所以`user-select`这个属性还是要慎用啊！！！
 
