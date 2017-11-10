@@ -157,8 +157,6 @@ options为可选参数对象，可用选项如下：
 
 > [关于js严格模式详解-阮一峰](http://www.ruanyifeng.com/blog/2013/01/javascript_strict_mode.html)
 
-> 后面会专写一篇来研究这个鬼严格模式。
-
 * 事件和函数的结尾为啥可以用逗号（参考陪我分享页）暂时没找到太好的解释[逗号当分号用了？](https://segmentfault.com/q/1010000008082093?_ea=1544899)？
 
 * `linear-gradient` `-webkit-tap-hightlight-color` `outline` 这些属性都是什么作用？
@@ -466,4 +464,6 @@ var $ = function(id){
 ```
 
 * `Math.random()` 取之范围是0-1，**包括0排除1**
+
+* 要仔细研究一下chrome浏览器的devtoos工具栏
 
