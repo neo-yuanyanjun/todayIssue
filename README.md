@@ -467,3 +467,5 @@ var $ = function(id){
 
 * 要仔细研究一下chrome浏览器的devtoos工具栏
 
+* 研究下防抖和节流的概念以及相关知识
+
