@@ -469,7 +469,7 @@ var $ = function(id){
 
 * 研究下防抖和节流的概念以及相关知识
 
-* js数字计算不准确是为什么？怎么处理？
+* js数字计算不准确是为什么？怎么处理？ [http://www.ruanyifeng.com/blog/2010/06/ieee_floating-point_representation.html](http://www.ruanyifeng.com/blog/2010/06/ieee_floating-point_representation.html)
 
 * 前端跨域是否可以通过添加 meta标签来解决？
 
