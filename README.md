@@ -455,7 +455,7 @@ for (var i = 1; i <= 5; i += 1){
 
 * 在苹果safari浏览器中使用css属性`-webkit-user-select: none;`会使得input输入框无法输入内容。所以`user-select`这个属性还是要慎用啊！！！
 
-* 发现一个选择元素的小技巧，原声js封装$符：
+* 发现一个选择元素的小技巧，原生js封装$符：
 
 ```js
 var $ = function(id){
@@ -468,4 +468,8 @@ var $ = function(id){
 * 要仔细研究一下chrome浏览器的devtoos工具栏
 
 * 研究下防抖和节流的概念以及相关知识
+
+* js数字计算不准确是为什么？怎么处理？
+
+* 前端跨域是否可以通过添加 meta标签来解决？
 
