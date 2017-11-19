@@ -473,3 +473,5 @@ var $ = function(id){
 
 * 前端跨域是否可以通过添加 meta标签来解决？
 
+* https://segmentfault.com/q/1010000012069061  不理解作用域链，看来要专门恶补一下
+
