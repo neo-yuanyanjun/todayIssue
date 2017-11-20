@@ -475,3 +475,6 @@ var $ = function(id){
 
 * https://segmentfault.com/q/1010000012069061  不理解作用域链，看来要专门恶补一下
 
+
+* https://juejin.im/post/5a11a9fef265da43284073b4 关于保留小数位对js精度的思考
+
