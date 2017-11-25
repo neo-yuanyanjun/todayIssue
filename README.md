@@ -478,26 +478,10 @@ var $ = function(id){
 
 * https://juejin.im/post/5a11a9fef265da43284073b4 关于保留小数位对js精度的思考
 
+* 什么是前后端分离？
+
 > 添加几个下午看的文章
 
 https://juejin.im/post/59e85eebf265da430d571f89
 
-https://juejin.im/post/5a0c170c6fb9a0451c39eff2
 
-https://juejin.im/post/5a1504ac6fb9a0452b48dfe6
-
-https://juejin.im/post/5a137248f265da43333e0418
-
-https://juejin.im/post/5a15a2c15188255851325b36
-
-https://juejin.im/post/5a0c175651882531ba107c4f
-
-https://github.com/DhyanaChina/simpler-paper/blob/master/README_CN.md
-
-http://www.css88.com/archives/8396
-
-https://juejin.im/book/59e17a7ff265da430629cc4e
-
-https://github.com/zuopf769/notebook/blob/master/fe/%E5%89%8D%E7%AB%AF%E5%85%A8%EF%BC%88%E6%97%A0%EF%BC%89%E5%9F%8B%E7%82%B9%E4%B9%8B%E9%A1%B5%E9%9D%A2%E6%93%8D%E4%BD%9C%E8%B7%AF%E5%BE%84%E5%8F%AF%E8%A7%86%E5%8C%96/README.md
-
-https://isux.tencent.com/articles/web-image-application.html
