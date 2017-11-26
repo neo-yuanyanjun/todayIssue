@@ -480,8 +480,6 @@ var $ = function(id){
 
 * 什么是前后端分离？
 
-> 添加几个下午看的文章
-
-https://juejin.im/post/59e85eebf265da430d571f89
+* zepto 是否可以设置请求头，如果可以怎么设置？
 
 
