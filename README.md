@@ -482,4 +482,6 @@ var $ = function(id){
 
 * zepto 是否可以设置请求头，如果可以怎么设置？
 
+* javascript和ECMAScript分别是什么？有什么关系？
+
 
