@@ -484,7 +484,15 @@ var $ = function(id){
 
 * javascript和ECMAScript分别是什么？有什么关系？
 
-> 推荐文章
-> 
- https://juejin.im/entry/5a1b93ee6fb9a044fa1993f2 
+## 关于小程序实现即时聊天
+
+1. 其本身自带的websocket实现 https://mp.weixin.qq.com/debug/wxadoc/dev/api/network-socket.html
+2. 野狗即时通讯IM 微信小程序版本 https://www.wilddog.com/product/sync-wxapp
+3. 极光微信小程序SDK https://docs.jiguang.cn/jmessage/client/im_sdk_wxapplet/
+
+先关文章：
+
+http://blog.csdn.net/baidu_36030459/article/details/54570921
+
+http://blog.csdn.net/qq_38125123/article/details/70172004
 
