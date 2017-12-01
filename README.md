@@ -490,9 +490,3 @@ var $ = function(id){
 2. 野狗即时通讯IM 微信小程序版本 https://www.wilddog.com/product/sync-wxapp
 3. 极光微信小程序SDK https://docs.jiguang.cn/jmessage/client/im_sdk_wxapplet/
 
-先关文章：
-
-http://blog.csdn.net/baidu_36030459/article/details/54570921
-
-http://blog.csdn.net/qq_38125123/article/details/70172004
-
