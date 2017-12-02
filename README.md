@@ -471,6 +471,8 @@ var $ = function(id){
 
 * js数字计算不准确是为什么？怎么处理？ [http://www.ruanyifeng.com/blog/2010/06/ieee_floating-point_representation.html](http://www.ruanyifeng.com/blog/2010/06/ieee_floating-point_representation.html)
 
+* 使用[lazyload.min.js](https://github.com/verlok/lazyload)对异步请求图片进行懒加载，只需要在图片异步请求完成且已经追加到页面后,执行代码`myLazyLoad .update()`即可对新添加的图片进行懒加载操作
+
 * 前端跨域是否可以通过添加 meta标签来解决？
 
 * https://segmentfault.com/q/1010000012069061  不理解作用域链，看来要专门恶补一下
