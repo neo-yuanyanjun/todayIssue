@@ -486,6 +486,22 @@ var $ = function(id){
 
 * javascript和ECMAScript分别是什么？有什么关系？
 
+* 这个排序有点意思，研究一下
+
+```
+var arr = [{ 'D': 90 }, { 'A': 20 }, { 'B': 50 }, { 'C': 10 }]
+function values(o) { return Object.keys(o).map(function(k){return o[k]}) }
+arr = arr.sort((a,b)=>{
+  let v1 = values(a)
+  let v2 = values(b)
+  if(v1>v2){
+    return 1
+  }
+})
+
+console.log(arr)
+```
+
 ## 关于小程序实现即时聊天
 
 1. 其本身自带的websocket实现 https://mp.weixin.qq.com/debug/wxadoc/dev/api/network-socket.html
