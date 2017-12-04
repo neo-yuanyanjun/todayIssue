@@ -502,6 +502,8 @@ arr = arr.sort((a,b)=>{
 console.log(arr)
 ```
 
+* weex pwa 都是干嘛的？
+
 ## 关于小程序实现即时聊天
 
 1. 其本身自带的websocket实现 https://mp.weixin.qq.com/debug/wxadoc/dev/api/network-socket.html
