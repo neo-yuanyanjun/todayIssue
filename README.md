@@ -508,3 +508,5 @@ console.log(arr)
 
 * https://jsfiddle.net/csvwolf/4pgak94t/ 研究下这个效果的实现
 
+* https://developer.mozilla.org/zh-CN/docs/Web/CSS/background-attachment  关于背景的一个属性
+
