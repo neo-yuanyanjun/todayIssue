@@ -473,6 +473,8 @@ var $ = function(id){
 
 * 使用[lazyload.min.js](https://github.com/verlok/lazyload)对异步请求图片进行懒加载，只需要在图片异步请求完成且已经追加到页面后,执行代码`myLazyLoad .update()`即可对新添加的图片进行懒加载操作
 
+* 右浮动的元素，要在左浮动元素之前，这样两个元素才不会错位，为什么呢？
+
 * 前端跨域是否可以通过添加 meta标签来解决？
 
 * https://segmentfault.com/q/1010000012069061  不理解作用域链，看来要专门恶补一下
