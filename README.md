@@ -512,3 +512,5 @@ console.log(arr)
 
 * https://developer.mozilla.org/zh-CN/docs/Web/CSS/background-attachment  关于背景的一个属性
 
+* ckplayer 怎么使用flashpalyer 播放视频
+
