@@ -514,5 +514,3 @@ console.log(arr)
 
 * ckplayer 怎么使用flashpalyer 播放视频
 
-* 在 vue angular react 纠结要用谁，初步确定为react。原因有3：1.社区活跃度，react远高于其他两个 2.所需的资源和辅助类元素，react比较晚全面 3.从多方检索的结果来看，更多的人倾向于推荐react。 容我再考虑考虑。。。
-
