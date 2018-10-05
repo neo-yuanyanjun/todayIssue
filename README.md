@@ -514,3 +514,13 @@ console.log(arr)
 
 * ckplayer 怎么使用flashpalyer 播放视频
 
+## new pull request
+
++ Ajax 使用 FormData做为data的参数时 出现Illegal invocation
+
+```
+用ajax向后台传递数据时出现此错误，在ajax的参数中加上
+contentType: false,  
+processData: false,
+```
+
